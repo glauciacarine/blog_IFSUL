@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Glaucia</title>
+  <link rel="icon" href="data:image/svg+xml,
+  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+    <text x='50%' y='60%' font-size='70' text-anchor='middle'
+        fill='%232563eb' font-family='Arial' font-weight='bold'>G</text>
+  </svg>">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark menu-principal fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Glaucia | Polo Novo Hamburgo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+        aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/about.html">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/curriculum.html">Tecnologias</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/projetos.html">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/contact.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="toolbar" aria-label="Ferramentas de acessibilidade">
+    <button onclick="toggleDarkMode()" title="Modo noturno" aria-label="Alternar modo noturno">🌙</button>
+    <button onclick="aumentarFonte()" title="Aumentar fonte" aria-label="Aumentar fonte">A+</button>
+    <button onclick="resetarFonte()" title="Fonte normal" aria-label="Voltar ao tamanho normal da fonte">A</button>
+    <button onclick="diminuirFonte()" title="Diminuir fonte" aria-label="Diminuir fonte">A-</button>
+  </div>
+
+  <header class="hero">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <span class="tagline">Desenvolvedora de Sistemas</span>
+          <h1>Olá! Eu sou a Glaucia.</h1>
+          <p class="lead">
+            Este portfólio apresenta meu perfil como desenvolvedora de software, minhas competências técnicas,
+            meus projetos acadêmicos e meus interesses na área de tecnologia.
+          </p>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="pages/about.html" class="btn btn-primary btn-lg">Conheça minha história</a>
+            <a href="pages/projetos.html" class="btn btn-outline-light btn-lg">Ver projetos</a>
+          </div>
+        </div>
+
+        <div class="col-lg-5 text-center">
+          <div class="avatar-card">
+            <!-- <div class="avatar-circle">G</div> -->
+            <div class="avatar-circle">
+              <img src="assets/perfil.jpg" alt="Foto de perfil">
+            </div>
+            <h2>Glaucia</h2>
+            <p class="mb-0">Back-End Developer em formação contínua</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container pagina">
+    <section class="text-center mb-5">
+      <h2 class="titulo-secao">Portfólio Pessoal</h2>
+      <p class="subtitulo">
+        Projeto desenvolvido com Bootstrap, CSS customizado e JavaScript.
+      </p>
+    </section>
+
+    <section class="row g-4">
+      <div class="col-md-4">
+        <div class="card card-premium h-100">
+          <div class="card-body text-center p-4">
+            <i class="bi bi-person-circle icon-big"></i>
+            <h3 class="card-title">Sobre Mim</h3>
+            <p>Minha biografia, objetivos profissionais e interesses em tecnologia.</p>
+            <a href="pages/about.html" class="btn btn-dark">Abrir</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card card-premium h-100">
+          <div class="card-body text-center p-4">
+            <i class="bi bi-code-slash icon-big"></i>
+            <h3 class="card-title">Tecnologias</h3>
+            <p>Competências técnicas e conhecimentos adquiridos até aqui no curso.</p>
+            <a href="pages/curriculum.html" class="btn btn-dark">Abrir</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card card-premium h-100">
+          <div class="card-body text-center p-4">
+            <i class="bi bi-folder2-open icon-big"></i>
+            <h3 class="card-title">Projetos</h3>
+            <p>Exemplos de projetos e funcionalidades desenvolvidas em atividades acadêmicas.</p>
+            <a href="pages/projetos.html" class="btn btn-dark">Abrir</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Glaucia - Portfólio acadêmico desenvolvido com Bootstrap</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

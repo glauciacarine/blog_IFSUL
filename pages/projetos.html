@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos - Glaucia</title>
+  <link rel="icon" href="data:image/svg+xml,
+  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+    <text x='50%' y='60%' font-size='70' text-anchor='middle'
+        fill='%232563eb' font-family='Arial' font-weight='bold'>G</text>
+  </svg>">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark menu-principal fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">Glaucia | Polo Novo Hamburgo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+        aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="curriculum.html">Tecnologias</a></li>
+          <li class="nav-item"><a class="nav-link active" href="projetos.html">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="toolbar" aria-label="Ferramentas de acessibilidade">
+    <button onclick="toggleDarkMode()" title="Modo noturno" aria-label="Alternar modo noturno">🌙</button>
+    <button onclick="aumentarFonte()" title="Aumentar fonte" aria-label="Aumentar fonte">A+</button>
+    <button onclick="resetarFonte()" title="Fonte normal" aria-label="Voltar ao tamanho normal da fonte">A</button>
+    <button onclick="diminuirFonte()" title="Diminuir fonte" aria-label="Diminuir fonte">A-</button>
+  </div>
+
+  <main class="container pagina">
+    <section class="text-center mb-5">
+      <h1 class="titulo-secao">Projetos</h1>
+      <p class="subtitulo">Exemplos de projetos desenvolvidos e recursos implementados durante as atividades acadêmicas.
+      </p>
+    </section>
+
+    <section class="row g-4">
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card h-100">
+          <div class="card-body p-4">
+            <span class="badge badge-tech mb-3">Projeto Web</span>
+            <h3 class="card-title h5">Blog Acadêmico</h3>
+            <p>Projeto inicial criado para praticar HTML, CSS e JavaScript.</p>
+            <a href="../index.html" class="btn btn-outline-primary">Abrir</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card h-100">
+          <div class="card-body p-4">
+            <span class="badge badge-tech mb-3">Projeto Externo</span>
+            <h3 class="card-title h5">Meu Outro Blog</h3>
+            <p>Blog desenvolvido para a disciplina de Desenvolvimento para Web na Universidade de Passo Fundo, com foco
+              em HTML, CSS e JavaScript.</p>
+            <a href="https://glaucia57052.github.io/" target="_blank" class="btn btn-outline-primary">
+              Acessar
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card h-100">
+          <div class="card-body p-4">
+            <span class="badge badge-tech mb-3">JavaScript</span>
+            <h3 class="card-title h5">Modo Escuro</h3>
+            <p>Funcionalidade que salva a preferência de tema no navegador.</p>
+            <a href="#" class="btn btn-outline-primary" onclick="toggleDarkMode(); return false;">Testar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card h-100">
+          <div class="card-body p-4">
+            <span class="badge badge-tech mb-3">Acessibilidade</span>
+            <h3 class="card-title h5">Ajuste de Fonte</h3>
+            <p>Botões para aumentar, diminuir e voltar ao tamanho normal da fonte.</p>
+            <a href="#" class="btn btn-outline-primary" onclick="aumentarFonte(); return false;">Testar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card h-100">
+          <div class="card-body p-4">
+            <span class="badge badge-tech mb-3">Formulário</span>
+            <h3 class="card-title h5">Contato com Validação</h3>
+            <p>Formulário com campos obrigatórios e mensagem de sucesso.</p>
+            <a href="contact.html" class="btn btn-outline-primary">Abrir</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card h-100">
+          <div class="card-body p-4">
+            <span class="badge badge-tech mb-3">Bootstrap</span>
+            <h3 class="card-title h5">Portfólio Responsivo</h3>
+            <p>Adaptação do blog para portfólio com Bootstrap e CSS customizado.</p>
+            <a href="about.html" class="btn btn-outline-primary">Ver sobre</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card project-card h-100">
+          <div class="card-body p-4">
+            <span class="badge badge-tech mb-3">CSS</span>
+            <h3 class="card-title h5">Layout Profissional</h3>
+            <p>Organização visual com cards, tabela responsiva, hover e tema escuro.</p>
+            <a href="curriculum.html" class="btn btn-outline-primary">Ver tecnologias</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Glaucia - Portfólio acadêmico desenvolvido com Bootstrap</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
