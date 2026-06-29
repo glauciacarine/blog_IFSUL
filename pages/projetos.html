@@ -16,7 +16,6 @@
 </head>
 
 <body>
-
   <nav class="navbar navbar-expand-lg navbar-dark menu-principal fixed-top">
     <div class="container">
       <a class="navbar-brand" href="../index.html">Glaucia | Polo Novo Hamburgo</a>
@@ -46,12 +45,98 @@
   <main class="container pagina">
     <section class="text-center mb-5">
       <h1 class="titulo-secao">Projetos</h1>
-      <p class="subtitulo">Exemplos de projetos desenvolvidos e recursos implementados durante as atividades acadêmicas.
+      <p class="subtitulo">
+        Exemplos de projetos desenvolvidos e recursos implementados durante as atividades acadêmicas.
       </p>
     </section>
 
-    <section class="row g-4">
+    <section class="card table-card mb-5">
+      <div class="card-body p-4">
+        <h2 class="titulo-secao h3">Lista de Projetos</h2>
+        <p class="subtitulo text-start mb-4">
+          Tabela desenvolvida com Bootstrap para apresentar os projetos, tecnologias utilizadas e links de acesso.
+        </p>
 
+        <div class="table-responsive">
+          <table class="table table-striped table-hover align-middle mb-0">
+            <thead>
+              <tr>
+                <th>Nome do Projeto</th>
+                <th>Descrição</th>
+                <th>Tecnologias Utilizadas</th>
+                <th>Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Blog Acadêmico</td>
+                <td>Projeto inicial criado para praticar HTML, CSS e JavaScript.</td>
+                <td>HTML, CSS e JavaScript</td>
+                <td>
+                  <a href="../index.html" class="btn btn-sm btn-outline-primary">Ver Projeto</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Meu Outro Blog</td>
+                <td>Blog desenvolvido para a disciplina de Desenvolvimento para Web.</td>
+                <td>HTML, CSS e JavaScript</td>
+                <td>
+                  <a href="https://glaucia57052.github.io/" target="_blank" class="btn btn-sm btn-outline-primary">
+                    Ver Projeto
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>Modo Escuro</td>
+                <td>Funcionalidade que salva a preferência de tema no navegador.</td>
+                <td>JavaScript e LocalStorage</td>
+                <td>
+                  <a href="#" class="btn btn-sm btn-outline-primary" onclick="toggleDarkMode(); return false;">
+                    Ver Projeto
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>Ajuste de Fonte</td>
+                <td>Ferramenta de acessibilidade para aumentar, diminuir e resetar a fonte.</td>
+                <td>HTML, CSS e JavaScript</td>
+                <td>
+                  <a href="#" class="btn btn-sm btn-outline-primary" onclick="aumentarFonte(); return false;">
+                    Ver Projeto
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>Contato com Validação</td>
+                <td>Formulário com campos obrigatórios e mensagem de sucesso.</td>
+                <td>HTML, Bootstrap e JavaScript</td>
+                <td>
+                  <a href="contact.html" class="btn btn-sm btn-outline-primary">Ver Projeto</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Portfólio Responsivo</td>
+                <td>Adaptação do blog para portfólio com Bootstrap e CSS customizado.</td>
+                <td>Bootstrap, HTML e CSS</td>
+                <td>
+                  <a href="about.html" class="btn btn-sm btn-outline-primary">Ver Projeto</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Layout Profissional</td>
+                <td>Organização visual com cards, tabela responsiva, hover e tema escuro.</td>
+                <td>CSS, Bootstrap e JavaScript</td>
+                <td>
+                  <a href="curriculum.html" class="btn btn-sm btn-outline-primary">Ver Projeto</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="row g-4">
       <div class="col-md-6 col-lg-4">
         <div class="card project-card h-100">
           <div class="card-body p-4">
@@ -62,19 +147,23 @@
           </div>
         </div>
       </div>
+
       <div class="col-md-6 col-lg-4">
         <div class="card project-card h-100">
           <div class="card-body p-4">
             <span class="badge badge-tech mb-3">Projeto Externo</span>
             <h3 class="card-title h5">Meu Outro Blog</h3>
-            <p>Blog desenvolvido para a disciplina de Desenvolvimento para Web na Universidade de Passo Fundo, com foco
-              em HTML, CSS e JavaScript.</p>
+            <p>
+              Blog desenvolvido para a disciplina de Desenvolvimento para Web na Universidade de Passo Fundo, com foco
+              em HTML, CSS e JavaScript.
+            </p>
             <a href="https://glaucia57052.github.io/" target="_blank" class="btn btn-outline-primary">
               Acessar
             </a>
           </div>
         </div>
       </div>
+
       <div class="col-md-6 col-lg-4">
         <div class="card project-card h-100">
           <div class="card-body p-4">
@@ -85,6 +174,7 @@
           </div>
         </div>
       </div>
+
       <div class="col-md-6 col-lg-4">
         <div class="card project-card h-100">
           <div class="card-body p-4">
@@ -95,6 +185,7 @@
           </div>
         </div>
       </div>
+
       <div class="col-md-6 col-lg-4">
         <div class="card project-card h-100">
           <div class="card-body p-4">
@@ -105,6 +196,7 @@
           </div>
         </div>
       </div>
+
       <div class="col-md-6 col-lg-4">
         <div class="card project-card h-100">
           <div class="card-body p-4">
@@ -115,6 +207,7 @@
           </div>
         </div>
       </div>
+
       <div class="col-md-6 col-lg-4">
         <div class="card project-card h-100">
           <div class="card-body p-4">
@@ -131,6 +224,7 @@
   <footer class="footer">
     <p>© 2026 Glaucia - Portfólio acadêmico desenvolvido com Bootstrap</p>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="../js/script.js"></script>
 </body>
